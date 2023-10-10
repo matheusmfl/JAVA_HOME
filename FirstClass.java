@@ -16,10 +16,14 @@ public class FirstClass {
 
     // while
 
-    int valorWhile = 0;
-    while (valorWhile < 3) {
-      System.out.println(valorWhile + "valor inicial é ${valorWhile}");
-      valorWhile++;
+    // int valorWhile = 0;
+    // while (valorWhile < 3) {
+    // System.out.println(valorWhile + "valor inicial é ${valorWhile}");
+    // valorWhile++;
+    // }
+
+    for (int i = 0; i < 4; i++) {
+      System.out.println("O valor do I é: " + i);
     }
   }
 }
